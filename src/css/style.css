@@ -1,0 +1,45 @@
+#bodybg {
+    background: url(http://mystcp.pw/images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+}
+#boxSep {
+	position:fixed;
+	width:400px;
+	height:270px;
+	left:50%;
+	top:50%;
+	margin-top:-119px;
+	margin-left:-200px;
+	background-color:#f3f3f3;
+	border:1px solid #ccc;
+	border-radius: 6px;
+	box-shadow:0 0 24px rgba(0,0,0,.4)
+}
+#pinheader {
+	height:40px;
+	background:#f0f0f0;
+	color:gray;
+	border:1px solid #ccc;
+	width:400px;
+	margin:0 auto;
+	text-align:center;
+	border-radius:3px;
+	margin-left:-1px;
+	box-shadow:0 0 10px rgba(20,25,25,.30)
+}
+#pininfo {
+	margin-top:54px;
+	text-align:center;
+	height:20px;
+	color:gray;
+	box-shadow:0 0 10px rgba(20,25,25,.30)
+}
+#pinimage {
+	text-align: center;
+	margin-top:35px;
+	margin-left:20px;
+}
