@@ -39,8 +39,8 @@ say $_html->start_html(
 	-title => 'Pin Tracker',
 	-author => 'neilmario@protonmail.com', 
 	-id => "bodybg", 
-	-script => {-type=>'JAVASCRIPT', -src=>'http://mystcp.pw/js/test.js'}, 
-	-style => {'src' => 'http://mystcp.pw/pintracker.css'
+	-script => {-type=>'JAVASCRIPT', -src=>'js/liquid.js'}, 
+	-style => {'src' => 'css/style.css'
 });
 say $_html->div({-id => "boxSep"});
 say $_html->div({-id => "imgLiquidFill imgLiquid"});
